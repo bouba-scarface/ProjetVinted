@@ -10,4 +10,4 @@ une plateforme e-commerce en Guinée qui permet de créer gratuitement sa boutiq
   
   •	Divertissement (livres, musiques, jeux vidéo etc.…)
   ## Technologie 
-   HTML/CSS/Bootstrap
+   HTML/CSS/UIKIT
