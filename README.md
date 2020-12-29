@@ -9,4 +9,5 @@ une plateforme e-commerce en Guinée qui permet de créer gratuitement sa boutiq
   •	Les accessoires high-techs, comme les écouteurs, les montres connectées, les coques et housses pour téléphones, et articles similaires.
   
   •	Divertissement (livres, musiques, jeux vidéo etc.…)
-  
+  ## Technologie 
+   HTML/CSS/Bootstrap
