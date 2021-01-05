@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AKProjet Boutique</title>
+  
+  <link rel="stylesheet" href="CSS/style.css">
+  <!--Replace with your tailwind.css once created-->
+  <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+ 
+  <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+<script src="JS/connexion.js"></script>
+
+</head>
+<body >
+    
+    
+    <!-- <script>
+
+        UIkit.util.ready(function () {
+
+            var bar = document.getElementById('js-progressbar');
+
+            var animate = setInterval(function () {
+
+                bar.value += 10;
+
+                if (bar.value >= bar.max) {
+                    clearInterval(animate);
+                }
+
+            }, 1000);
+
+        });
+
+    </script> -->
+
+    <div class="uk-container uk-container-large uk-margin-top">
+        
+
+        <form class="uk-form-stacked uk-grid-small " uk-grid>
+            <div class="uk-width-1-2">
+                <div class="uk-margin">
+                    <input class="uk-range" type="range" value="0" min="0" max="10" step="0.1">
+                </div>
+            </div>
+            <div class="uk-width-1-2">
+                <div class="uk-margin">
+                    <input class="uk-range" type="range" value="0" min="0" max="10" step="0.1">
+                </div>
+            </div>
+            <legend class="uk-legend uk-heading-divider uk-text-success uk-text-bold">Contact</legend>
+            <div class="uk-form-label uk-margin-remove-bottom">Sexe <span style="color:red">*</span></div>
+            <div class="uk-width-1-1 uk-grid-small uk-child-width-auto uk-margin-remove-top uk-grid"> 
+                <label><input class="uk-radio" type="radio" name="radio1"> Homme</label><br>
+                <label><input class="uk-radio " type="radio" name="radio1"> Femme</label>
+            </div>
+
+            
+
+            <div class="uk-width-1-2">
+                    <label class="uk-form-label" for="form-stacked-text">Prénom <span style="color:red">*</span></label>
+                    <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Prénom">
+                    </div>  
+            </div>
+            <div class="uk-width-1-2">
+                <label class="uk-form-label" for="form-stacked-text">Nom <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="Nom">
+                </div>
+            </div>
+            <div class="uk-width-1-2">
+                <label class="uk-form-label" for="form-stacked-text">Numéro de téléphone <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                </div>
+            </div>
+            
+            <div class="uk-width-1-6">
+                <label class="uk-form-label" for="form-stacked-text">Numéro de téléphone <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                </div>
+            </div>
+            <div class="uk-width-1-6">
+                <label class="uk-form-label" for="form-stacked-text">Numéro de téléphone <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                </div>
+            </div>
+            <div class="uk-width-1-6">
+                <label class="uk-form-label" for="form-stacked-text">Numéro de téléphone <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                </div>
+            </div>
+
+            <div class="uk-width-1-1">
+                <label class="uk-form-label" for="form-stacked-select">Nationalité<span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="form-stacked-select">
+                        <option>Pays</option>
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </div>
+
+            <legend class="uk-legend uk-heading-divider uk-text-success uk-text-bold">Adresse</legend>
+            <div class="uk-form-label uk-margin-remove-bottom">Type de compte <span style="color:red">*</span></div>
+            <div class="uk-width-1-1 uk-grid-small uk-child-width-auto uk-margin-remove-top uk-grid"> 
+                <label><input class="uk-radio" type="radio" name="radio1"> Particulier</label><br>
+                <label><input class="uk-radio " type="radio" name="radio1"> Professionnel</label>
+            </div>
+            <div class="uk-width-1-1">
+                <label class="uk-form-label" for="form-stacked-text">Adresse <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="Prénom">
+                </div>  
+            </div>
+            <div class="uk-width-1-2">
+                <label class="uk-form-label" for="form-stacked-text">Ville <span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="Ville">
+                </div>  
+            </div>
+            <div class="uk-width-1-2">
+                <label class="uk-form-label" for="form-stacked-select">Pays<span style="color:red">*</span></label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="form-stacked-select">
+                        <option>Pays</option>
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <h1 class="uk-heading-divider"></h1>
+        <div class="uk-flex uk-flex-center ">
+            <div>
+                <button class="uk-button uk-button-primary uk-width-xlarge uk-margin-small-bottom ">Etape 2: Paramètres boutique ></button>
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+</body>
+
